@@ -12,7 +12,8 @@
 - Графиеческий интерфейс WinForms
 ## 🛠 Скриншоты
 <img width="612" height="432" alt="image" src="https://github.com/user-attachments/assets/5b743fd9-0218-4677-a338-f7a108fbdd10" />
-## 🛠 Автор
+
+## Автор
 Гиниятуллина София Группа 1251
-## 🛠 Дата
+## Дата
 Июнь 2026
