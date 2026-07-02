@@ -49,7 +49,7 @@
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(135, 47);
             this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "button1";
+            this.btnSearch.Text = "найти";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -67,27 +67,24 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Location = new System.Drawing.Point(166, 25);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(44, 16);
+            this.lblTitle.Size = new System.Drawing.Size(0, 16);
             this.lblTitle.TabIndex = 3;
-            this.lblTitle.Text = "label1";
             // 
             // lblAuthor
             // 
             this.lblAuthor.AutoSize = true;
             this.lblAuthor.Location = new System.Drawing.Point(166, 61);
             this.lblAuthor.Name = "lblAuthor";
-            this.lblAuthor.Size = new System.Drawing.Size(44, 16);
+            this.lblAuthor.Size = new System.Drawing.Size(0, 16);
             this.lblAuthor.TabIndex = 4;
-            this.lblAuthor.Text = "label2";
             // 
             // lblRating
             // 
             this.lblRating.AutoSize = true;
             this.lblRating.Location = new System.Drawing.Point(166, 102);
             this.lblRating.Name = "lblRating";
-            this.lblRating.Size = new System.Drawing.Size(44, 16);
+            this.lblRating.Size = new System.Drawing.Size(0, 16);
             this.lblRating.TabIndex = 5;
-            this.lblRating.Text = "label3";
             // 
             // Form1
             // 

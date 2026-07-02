@@ -98,7 +98,7 @@ namespace BookBriefApp
 
             try
             {
-                // Жестко ограничиваем до 450 символов, чтобы переводчик не ругался
+                
                 if (text.Length > 450) text = text.Substring(0, 450);
 
                 string encodedText = Uri.EscapeDataString(text);
@@ -113,7 +113,7 @@ namespace BookBriefApp
             }
             catch
             {
-                return text; // Если что-то пошло не так, просто покажем английский текст
+                return text; 
             }
         }
     }

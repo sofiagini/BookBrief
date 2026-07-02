@@ -19,7 +19,7 @@ namespace BookBriefApp
 
         private async void btnSearch_Click(object sender, EventArgs e)
         {
-            // 1. Программа берет текст, который ты ввела в TextBox
+           
             string query = txtSearch.Text.Trim();
 
             if (string.IsNullOrEmpty(query))
@@ -31,13 +31,13 @@ namespace BookBriefApp
             btnSearch.Enabled = false;
             btnSearch.Text = "Загрузка...";
 
-            // 2. Создается экземпляр нашего класса-сервиса
+           
             BookApiService api = new BookApiService();
 
-            // 3. ВОТ ОН — ВЫЗОВ API! Сюда передается твой текст из переменной query
+            
             Book result = await api.SearchBookAsync(query);
 
-            // 4. Программа смотрит, что вернул вызов API, и выводит на форму
+            
             if (result != null)
             {
                 lblTitle.Text = "Название: " + result.Title;
